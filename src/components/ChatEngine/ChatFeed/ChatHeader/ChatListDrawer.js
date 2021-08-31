@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react'
 
-import { MenuOutlined } from '@ant-design/icons'
+import { MailOutlined } from '@ant-design/icons'
 
 import { ChatEngineContext } from '../../../Context'
 
@@ -13,7 +13,7 @@ const ChatListDrawer = props => {
 
     return (
         <div> 
-            <MenuOutlined
+            <MailOutlined 
                 onClick={() => setIsOpen(true)}
                 style={{ color: 'rgb(24, 144, 255)', outline: 'none' }} 
             />
